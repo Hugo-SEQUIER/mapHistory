@@ -1,0 +1,39 @@
+h2 {
+    font-family: "Quantico";
+    font-size: 4em;
+    width: 100%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+    border: 3px solid #35292d;
+    color: #1d2f3d;
+    border-radius: 20px;
+    display :flex;
+    box-shadow:0px 0px 10px #35292d;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4em;
+    margin-top: 1em;
+}
+h3 {
+    font-family: "Quantico";
+    font-size: 2em;
+    width: 100%;
+    text-indent: 0.3em;
+}
+.information {
+    border: 3px solid #35292d;
+    color: #1d2f3d;
+    border-radius: 20px;
+    display :flex;
+    box-shadow:0px 0px 10px #35292d;
+    width: 25%;
+}
