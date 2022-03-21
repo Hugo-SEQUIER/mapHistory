@@ -6,7 +6,12 @@
     <h3>Filtre</h3>
   </div>
   <div id="map"class="my-google-map">
-    <google-map [width]="1000" [height]="600"[options]="mapOptions"></google-map>
+    <google-map [width]="1000" [height]="600" [options]="mapOptions" polyOptions>
+      <map-polygon [options]="polyFrance"></map-polygon>
+      <map-polygon [options]="polyAndore"></map-polygon>
+      <map-polygon [options]="polyEspagne"></map-polygon>
+      <map-polygon [options]="polyPortugal"></map-polygon>
+    </google-map>
   </div>
   <div class="information">
     <h3>Informations</h3>
